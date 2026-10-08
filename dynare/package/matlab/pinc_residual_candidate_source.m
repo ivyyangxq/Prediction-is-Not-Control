@@ -1,0 +1,50 @@
+function [result, raw_json] = pinc_residual_candidate_source(payload, python_executable)
+% Shared fixed-candidate residual source CLI; no .mod parser or duplicate math.
+% POSIX MATLAB/Octave wrapper. JSON file input preserves singleton arrays.
+% Second output preserves the original response JSON for lossless persistence.
+% PAYLOAD supplies an absolute NPZ path and fixed candidate/reference arrays,
+% or serialized candidate evidence for the route operation.
+% python_executable must point to an environment containing the NEW package.
+    if nargin ~= 2 || ~(isstruct(payload) || ischar(payload)) || ~ischar(python_executable)
+        error('pinc:Input', 'Supply a payload struct or JSON file path and Python executable path.');
+    end
+    if isempty(python_executable) || python_executable(1) ~= '/'
+        error('pinc:Configuration', 'Use an absolute POSIX Python path.');
+    end
+    pinc_work = tempname;
+    mkdir(pinc_work);
+    pinc_cleanup = onCleanup(@() rmdir(pinc_work, 's'));
+    pinc_input = fullfile(pinc_work, 'input.json');
+    pinc_output = fullfile(pinc_work, 'output.json');
+    pinc_fid = fopen(pinc_input, 'w');
+    if pinc_fid < 0, error('pinc:IO', 'Cannot write the request.'); end
+    try
+        if ischar(payload)
+            pinc_json = fileread(payload);
+        else
+            pinc_json = jsonencode(payload);
+        end
+        fprintf(pinc_fid, '%s\n', pinc_json);
+        fclose(pinc_fid);
+    catch pinc_error
+        fclose(pinc_fid);
+        rethrow(pinc_error);
+    end
+    pinc_cmd = [pinc_residual_candidate_source_quote(python_executable) ' -m pinc_toolbox.residual_candidate_source_cli --input ' ...
+                pinc_residual_candidate_source_quote(pinc_input) ' --output ' pinc_residual_candidate_source_quote(pinc_output)];
+    [pinc_status, pinc_message] = system(pinc_cmd);
+    if pinc_status ~= 0
+        error('pinc:PythonFailed', 'Python exited %d: %s', pinc_status, pinc_message);
+    end
+    if ~exist(pinc_output, 'file')
+        error('pinc:MissingOutput', 'Python returned without a result.');
+    end
+    raw_json = fileread(pinc_output);
+    result = jsondecode(raw_json);
+end
+
+function quoted = pinc_residual_candidate_source_quote(value)
+    q = char(39);
+    replacement = [q char(34) q char(34) q];
+    quoted = [q strrep(char(value), q, replacement) q];
+end

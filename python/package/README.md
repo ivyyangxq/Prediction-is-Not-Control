@@ -1,4 +1,4 @@
-# PINC：从变化检测到来源诊断
+# PINC: From Change Detection to Source Diagnosis
 
 ## Scientific scope and saved KS delivery — 2026-10-07, version 0.2.0.dev2026100702
 
@@ -32,25 +32,25 @@ Actual-state evaluation uses the current reward and G prediction directly and pr
 The new Python archive contains the wheel, this README and the four-path engineering example. The Dynare-facing archive contains the same wheel, POSIX MATLAB/Octave bridges (including `pinc_counterfactual.m`) and that example. Install the wheel with its ordinary Python dependencies. In Octave/MATLAB add the extracted `matlab` directory, then call the bridges with an absolute path to that installed Python. The bridge executes the Python learner; it is not a separate Dynare-native Bellman implementation. Current installed Python and actual Octave validation is recorded in `reports/RAGQ_TOOLBOX_SYNC_20261003.md`; MATLAB and Dynare-internal model execution are not claimed by that check. Old archives remain intact.
 
 
-历史开发包 **0.2.0.dev2026092702**：本次增加实验性的联合组件报告接口：在调用者给定预先路由及匹配条件校准记录后，分别报告有限目录下的模型参与与潜在状态参与。新安装的 Python wheel 与解压的 Octave 适配器对四条已保存的 routed 输入逐字段一致；这只验证报告算术与接口，不代表条件模拟工作流、模型来源准确率或潜在来源识别已经完成。旧版本及其示例保留。接口不生成条件未来、不验证历史/核假设、不提供来源概率或真实经济 Q 保证。MATLAB 执行和 Dynare 模型模拟未在本次验证。
+Historical development package **0.2.0.dev2026092702** added an experimental joint-component reporting interface. Given a prespecified route and matching conditional-calibration record, it separately reports model and latent-state involvement within a finite catalogue. A newly installed Python wheel and the extracted Octave adapter agreed field by field on four saved routed inputs. This validates only reporting arithmetic and the interface; it does not establish a conditional-simulation workflow, model-source accuracy, or latent-source identification. Older versions and examples remain available. The interface does not generate conditional futures, validate history or null assumptions, provide source probabilities, or guarantee true economic Q. MATLAB execution and Dynare model simulation were not verified in that check.
 
-## Branch learner 的 Q 查询
+## Branch Learner Q Queries
 
-`RND2BranchLearner` 默认保留原 nearest-node Q 查询。需要 direct Bellman 查询时，可显式传入 `q_evaluation='bellman'` 和 `query_horizon=10`；这两个设置保存在 learner 实例及其副本中，并交由原生 `RND2GQ.q_values` 执行相同的支持与有限/无限 horizon 检查。`prepare_rnd2_learner` 和 JSON 接入的 `learner` 设置也接受这两个选项。`query_horizon=None` 继承拟合模型的期限：有限模型使用其有限期限，无限模型使用无限续期。该路由只指定 Q 查询方式，不构成来源准确率或 power 结论。
+`RND2BranchLearner` retains the original nearest-node Q query by default. For a direct Bellman query, explicitly pass `q_evaluation='bellman'` and `query_horizon=10`. Both settings persist on the learner and its copies and are passed to native `RND2GQ.q_values`, which applies the same support and finite/infinite-horizon checks. `prepare_rnd2_learner` and the JSON `learner` settings accept both options. `query_horizon=None` inherits the fitted model's horizon: its finite horizon for a finite model or infinite continuation for an infinite model. This route specifies only how Q is queried; it makes no claim about source accuracy or power.
 
-## 当前入口
+## Current Entry Points
 
-- **A：有行动数据的原生 GQ / residual-augmented 分支与两层诊断。** 使用已安装的 `native_gq_cli`、原生 eta query 和 `eta_online_gq_two_stage`；完整当前输入 schema、固定诊断参考与滚动行为 fit 的区别、source 独立参考、实际命令和 `.m` 调用见 [行动数据工作流](examples/action_workflow/README.md)。它是已提取的 RND2 原生程序与受限线性诊断路线，不能冒称任意模型的自动 RA-GQ。
-- **B：观测 HS 环境/增长应用。** 使用下方自包含 driver，显式选择 complete-only、stopped-prefix 或 grouped-composite 来源规则。
-- **C：固定行动、固定公开环境与双固定诊断。** `pinc_toolbox.counterfactual.run_four_paths` 同步运行一主三子，各分支保留自己的状态、已释放历史和辅助记忆。四分支语义、带符号对比和缺失处理见下方 [Four synchronous path diagnostics](#four-synchronous-path-diagnostics)。这一路输出有限路径回报诊断，不自动提供来源检验。
+- **A: Native GQ/residual-augmented action-data branch and two-stage diagnosis.** Use the installed `native_gq_cli`, native eta query, and `eta_online_gq_two_stage`. The [action-data workflow](examples/action_workflow/README.md) gives the current input schema, the distinction between fixed diagnostic reference and rolling behavior fit, the independent source reference, commands, and `.m` calls. This is an extracted RND2 native workflow with a restricted linear diagnostic route, not automatic RA-GQ for arbitrary models.
+- **B: Observed-environment/growth HS application.** Use the self-contained driver below and explicitly choose the complete-only, stopped-prefix, or grouped-composite source policy.
+- **C: Fixed-action, fixed-public-environment, and jointly fixed diagnostics.** `pinc_toolbox.counterfactual.run_four_paths` runs one main and three subsidiary paths synchronously; each branch retains its own state, released history, and auxiliary memory. See [Four synchronous path diagnostics](#four-synchronous-path-diagnostics) for path semantics, signed contrasts, and missing-data handling. This route yields finite-path return diagnostics, not an automatic source test.
 
-A 的 `native_source_loop` 主循环目前仅支持 base（拒绝 `auxiliary != base`），连接初始化、eta、在线检测、支持内采集和两层结果；full RA 四分支使用 C 的新入口，不表示自动两层 host 已支持 full RA。示例 host 是显式模拟器，真实应用须提供执行与发布适配器。见 [原生主循环说明](examples/native_source_loop/README.md)。安装下节 wheel 后运行：
+Route A's `native_source_loop` currently supports only base (it rejects `auxiliary != base`), connecting initialization, eta, online detection, acquisition within support, and two-stage output. Full-RA four-path work uses route C's newer entry point; this does not mean the automated two-stage host supports full RA. The example host is an explicit simulator; real applications must supply execution and release adapters. See the [native host-loop guide](examples/native_source_loop/README.md). After installing the wheel below, run:
 
 ```sh
 .venv/bin/python -I -m pinc_toolbox.native_source_loop_cli --input examples/native_source_loop/request.json --host-file examples/native_source_loop/simulation_host.py --output native-loop.json --html-output native-loop.html
 ```
 
-分步接口与工程 fixtures：
+Stepwise interfaces and engineering fixtures:
 
 ```sh
 .venv/bin/python -I -m pinc_toolbox.native_gq_cli --input examples/action_workflow/native_gq.json --output native.json
@@ -59,13 +59,13 @@ A 的 `native_source_loop` 主循环目前仅支持 base（拒绝 `auxiliary != 
 .venv/bin/python -I -m pinc_toolbox.source_acquisition_cli --input examples/action_workflow/source_acquisition.json --output acquisition.json
 ```
 
-这些工程 fixtures 分别展示当前接口，不是假称一条匹配的在线科学实验。一般应用仍须提供真实动作/结果、可用性时钟、可预测权重和预留来源参考；归档历史不是当前接口文档。
+These engineering fixtures illustrate separate current interfaces, not one matched online scientific experiment. General applications must still provide actual actions and outcomes, an availability clock, predictable weights, and a reserved source reference. Archived history is not current interface documentation.
 
-### 条件历史 saved-terminal 报告（工作树 opt-in）
+### Conditional-History Saved-Terminal Report (Worktree Opt-In)
 
-当前工作树可选择 `conditional_history_saved_report`，仅把已保存的 terminal JSON 转成报告；它不运行 conditional sampler。该入口尚未加入现有 package014 distributions。请求沿用 `two_stage_report_cli`：`stage1` 给正常报警记录，`context.route` 设为该路由，可选提供 `history_reference`、`detector_reference` 和 `maintained_assumptions`，`source` 直接放 terminal 对象。
+The current worktree can select `conditional_history_saved_report`, which only converts saved terminal JSON into a report; it does not run a conditional sampler. This entry point is not yet in the existing package014 distributions. The request uses `two_stage_report_cli`: provide the ordinary alarm record in `stage1`, set `context.route` to this route, optionally provide `history_reference`, `detector_reference`, and `maintained_assumptions`, and put the terminal object directly in `source`.
 
-以下只示意请求形状；`source` 必须替换为真实的完整 terminal 对象，示例占位符不是有效输入：
+The following shows only the request shape. Replace `source` with an actual complete terminal object; the placeholder is not valid input:
 
 ```json
 {
@@ -80,17 +80,17 @@ A 的 `native_source_loop` 主循环目前仅支持 base（拒绝 `auxiliary != 
 }
 ```
 
-`stage1` 只接受 `status` 和可选的 `H`；两者必须与 terminal 派生状态一致。假设字段是调用者声明，软件不会验证其真实性。允许的假设名为 `finite_fully_specified_catalogue`、`complete_public_history_fixed`、`fixed_detector_alarm_measurable`、`correct_candidate_conditional_kernels`、`independent_CAL_and_observed_future`、`original_scores_tails_and_qualification`、`predeclared_capped_first_available_sampling`。
+`stage1` accepts only `status` and optional `H`; both must agree with the terminal-derived state. Assumption fields are caller declarations, not claims verified by the software. Allowed assumption names are `finite_fully_specified_catalogue`, `complete_public_history_fixed`, `fixed_detector_alarm_measurable`, `correct_candidate_conditional_kernels`, `independent_CAL_and_observed_future`, `original_scores_tails_and_qualification`, and `predeclared_capped_first_available_sampling`.
 
-保存为请求 JSON 后，从仓库根目录用工作树源码运行（不要启用 `-I`）：
+After saving the request JSON, run from the repository root using the worktree source (do not use `-I`):
 
 ```sh
 PYTHONPATH=software/pinc_toolbox/src python -m pinc_toolbox.two_stage_report_cli --input request.json --output report.json --html-output report.html
 ```
 
-model、latent 和 mixed 均保留 present/absent/unresolved 三值；mixed 布尔值只表示已断言共同存在。invalid 或未明确维护全部假设时不填来源错误界，Type II 仍未估计，p 值不是来源后验。
+Model, latent, and mixed each retain the three states present/absent/unresolved; the mixed Boolean only denotes asserted joint presence. For invalid records or when not all assumptions are explicitly maintained, no source-error bound is filled in. Type II error remains unestimated, and p-values are not source posteriors.
 
-Dynare/Octave 调用也须让 Python 从工作树源码导入该入口；现有 package014 安装不包含此入口。新路由只接受原请求 JSON 的文件路径，结构体输入会明确报错并提示改传文件。Octave 的 `jsondecode`/`jsonencode` 会把 `null` 改成 `[]`；二者分别可表示无结果和空集合，不能互相替换。原有路由的结构体输入保持不变。例如在仓库根目录、使用已有兼容 Python 环境：
+Dynare/Octave calls must likewise make Python import this entry point from worktree source; the existing package014 installation does not include it. The new route accepts only a path to the original request JSON. Structure input raises an explicit error requesting a file instead. Octave's `jsondecode`/`jsonencode` converts `null` to `[]`; these can mean no result and an empty set, respectively, and are not interchangeable. Structure input remains supported on the old routes. For example, from the repository root with an existing compatible Python environment:
 
 ```matlab
 setenv('PYTHONPATH', fullfile(pwd, 'software', 'pinc_toolbox', 'src'));
@@ -99,11 +99,11 @@ addpath(fullfile(pwd, 'software', 'pinc_toolbox', 'distribution', 'dynare_eta'))
     '/absolute/path/request.json', '/absolute/path/python', '/absolute/path/report.html');
 ```
 
-传递原文件路径，不要先把请求 `jsondecode` 为结构体。
+Pass the original file path; do not first `jsondecode` the request into a structure.
 
-## 安装与第一次运行
+## Installation and First Run
 
-在解压后的分发根目录执行：
+From the extracted distribution root, run:
 
 ```sh
 python -m venv .venv
@@ -112,39 +112,39 @@ python -m venv .venv
 .venv/bin/python -I examples/hs2022/run_example.py --config examples/hs2022/smoke.json --source-policy stopped_prefix --case mixed --output hs_change
 ```
 
-打开 `hs_change/report.html` 查看两层结果和 Details。输出目录须为新目录；固定 smoke 只是工程检查，不能用于功效声明。 HS balanced16 is complete; see the current validation note. HS80 and RND480 are complete; see the final confirmation summary.
+Open `hs_change/report.html` for the two-stage results and Details. The output directory must be new. The fixed smoke test is only an engineering check, not evidence of power. HS balanced16 is complete; see the current validation note. HS80 and RND480 are complete; see the final confirmation summary.
 
-**显式选择来源规则。** 上述 `stopped_prefix` 是本轮前瞻评估使用的来源选项。省略该参数或指定 `--source-policy complete_only` 会运行原 complete-only 程序，便于复现。两者使用相同检测 core、参考和 eta。请在生成 CAL 前选择规则，不根据结果选择。新规则尚不能称为“更准”。
+**Choose the source policy explicitly.** The `stopped_prefix` option above was used in this prospective evaluation. Omitting the argument or specifying `--source-policy complete_only` runs the original complete-only procedure for reproduction. Both use the same detection core, reference, and eta. Choose the policy before generating CAL, not after inspecting results. The newer policy cannot yet be called more accurate.
 
-## 四分支同步诊断（.2412）
+## Four Synchronous Path Diagnostics (.2412)
 
-工作文档于 2026-09-25 更新；已有 .2412 发布归档保持不变。
+Working documentation was updated on 2026-09-25; the existing .2412 release archive remains unchanged.
 
-在已审查的 hidden-v004 host 中，`fixed_public_environment` 冻结的是提供给 learner 的代理输入，不是真实 Z 或其演化规律。初始物理／潜在状态和潜在／物理噪声相同、行动按接口规定配对时，主路／固定公开输入、固定行动／双固定在共同执行日期上的物理结果和回报完全相同；完整配对回报差及四格 interaction 恒为零。这一结论依赖该 host 中 w 不直接进入物理方程、Z 不受行动影响，不能推广到任意 adapter。预测、Q、辅助量和支持仍可能随输入及拟合历史变化，但这种敏感性本身不是来源识别。
+In the reviewed hidden-v004 host, `fixed_public_environment` freezes the proxy input supplied to the learner, not true Z or its evolution law. When initial physical/latent states and latent/physical noise are matched and actions are paired as specified by the interface, main versus fixed-public-input and fixed-action versus both-fixed have identical physical outcomes and returns on shared execution dates; their complete paired return differences and the four-cell interaction are zero. This result depends on w not entering that host's physical equation directly and on Z being unaffected by actions. It does not generalize to arbitrary adapters. Forecasts, Q, auxiliary values, and support can still vary with inputs and fitting history, but that sensitivity alone is not source identification.
 
-四条路径的结果仍需由 host 或模型提供。learner 不读取 Z，不等于反事实结果来自可观测主历史。在上述同动作 v004 耦合下，主路物理结果可用于主路／代理冻结的输入敏感性重放；改变行动的子路通常需要模型或额外真实结果。缺失不补零，本地有限 Q 不构成完整 eta 认证，当前四分支尚未连接有效的 hidden-v004 来源校准。拒绝和缺失属于完整诊断结果；仅筛选完成路径会改变比较总体，不能直接继承未筛选输出的信息或误差界。
+The host or model must still supply outcomes for all four paths. A learner that does not read Z does not make counterfactual outcomes observable from the main history. Under the same-action v004 coupling above, main-path physical outcomes can be reused for main versus proxy-frozen input-sensitivity replay; paths with changed actions generally require a model or additional real outcomes. Missing values are not replaced by zero, local finite Q does not certify complete eta, and these four paths have not yet been connected to valid hidden-v004 source calibration. Rejections and missingness are part of the full diagnostic result. Selecting only completed paths changes the comparison population and does not automatically inherit the information or error bounds of the unselected output.
 
-四分支从同一公开初态和已拟合 learner 分叉，主分支先选本期行动，再由子分支执行；各分支只用自己的已释放结果更新 G/Q 与辅助量。
+The four paths branch from the same public initial state and fitted learner. The main branch chooses the current action first; subsidiary branches then execute. Each branch updates G/Q and auxiliary values only from its own released outcomes.
 
-| 分支 | 当期执行行动 | 当期公开环境输入 |
+| Branch | Action executed this period | Public-environment input this period |
 | --- | --- | --- |
-| `main` | 主 learner 在线选择 | 当期公开输入 |
-| `fixed_action` | 分叉时主分支的首个行动 | 当期公开输入 |
-| `fixed_public_environment` | 本期刚选出的主行动 | 分叉时公开输入 |
-| `both_fixed` | 分叉时主分支的首个行动 | 分叉时公开输入 |
+| `main` | Chosen online by the main learner | Current public input |
+| `fixed_action` | Main branch's first action at the fork | Current public input |
+| `fixed_public_environment` | Main action just chosen for this period | Public input at the fork |
+| `both_fixed` | Main branch's first action at the fork | Public input at the fork |
 
-固定公开环境分支不自行 greedy，也不预读未来行动。固定公开输入不等于固定隐藏 Z；物理状态、真实上一期执行行动和学习历史仍逐期递推。`RND2BranchLearner` 使用 full RA-GQ；公开状态顺序为 `state,w,previous_action`，辅助量顺序为 `delta_gamma,delta_m,residual`。前缀辅助量按已释放历史重建，在线 residual 来自结果发布前实际发出的 base-G 预测。
+The fixed-public-environment branch does not make its own greedy choice or read future actions. Fixing the public input does not fix hidden Z; physical state, actual previously executed action, and learning history still evolve period by period. `RND2BranchLearner` uses full RA-GQ. Public-state order is `state,w,previous_action`; auxiliary order is `delta_gamma,delta_m,residual`. Prefix auxiliary values are reconstructed from released history, and the online residual uses the base-G forecast actually issued before outcome release.
 
-安装后在分发根目录运行随包 RND2 工程示例，并保存同一请求：
+After installation, run the bundled RND2 engineering example from the distribution root and save the same request:
 
 ```sh
 .venv/bin/python -I examples/counterfactual/rnd2_four_paths.py --output cf_example.json --request cf_request.json
 .venv/bin/python -I -m pinc_toolbox.counterfactual_cli --input cf_request.json --host-file examples/counterfactual/rnd2_environment.py --output cf_cli.json
 ```
 
-输出文件须不存在。示例使用小型模拟器与工程参数；它不运行来源 CAL，不估计来源功效。真实应用需要提供可信的环境 host 文件及公开转移数据。CLI 的 JSON 输入包含 `history`、`learner`、`steps`、`environment_config`；可选 `stage1`、`context` 和 `existing_report` 是另行提供的报告信息。`learner` 声明 `as_of`、`warmup_as_of`、`window`、`path_id`、`refit_every`、`beta`、`horizon`、`nodes_per_memory`、`noise_nodes`，并非从完整未来样本自动选择。
+The output files must not already exist. The example uses a small simulator and engineering parameters; it does not run source CAL or estimate source power. Real applications must supply a credible environment host file and public transition data. CLI JSON input contains `history`, `learner`, `steps`, and `environment_config`. Optional `stage1`, `context`, and `existing_report` are separately supplied reporting information. The `learner` specifies `as_of`, `warmup_as_of`, `window`, `path_id`, `refit_every`, `beta`, `horizon`, `nodes_per_memory`, and `noise_nodes`; these are not automatically selected from a complete future sample.
 
-MATLAB/Octave/Dynare 宿主脚本调用同一个 Python core：
+MATLAB/Octave/Dynare host scripts call the same Python core:
 
 ```matlab
 addpath('/absolute/extracted/examples/counterfactual');
@@ -155,65 +155,65 @@ addpath('/absolute/extracted/examples/counterfactual');
   '/absolute/extracted/.venv/bin/python');
 ```
 
-Python 自定义 adapter 的入口为 `run_four_paths(learner=..., environment=..., initial_state=..., start_time=..., steps=..., beta=...)`。`PublicState` 分开记录 physical/auxiliary；`PublicInput` 记录输入值与 `available_at`；`PublicOutcome` 记录下一状态、reward 与 `release_time`。adapter 必须声明公开输入坐标，执行干预且保留内生状态；接口本身不能证明用户提供的变量确实可观测。
+The custom Python adapter entry point is `run_four_paths(learner=..., environment=..., initial_state=..., start_time=..., steps=..., beta=...)`. `PublicState` records physical and auxiliary components separately; `PublicInput` records the input value and `available_at`; `PublicOutcome` records the next state, reward, and `release_time`. An adapter must declare public-input coordinates, execute interventions, and preserve endogenous state. The interface cannot itself prove that caller-supplied variables are actually observable.
 
-当前四分支 RND2 接口的行动资格为 `native_local_support_and_finite_Q`，`eta_status=not_supplied`；有限 Q 与本地支持不构成完整 eta 或经济 Q 精度认证。`trace.issued` 保留 Q/null、资格 mask、实际执行 Q、base/full 预测及其时点。
+The current four-path RND2 action eligibility is `native_local_support_and_finite_Q`, with `eta_status=not_supplied`; finite Q and local support do not certify complete eta or economic-Q accuracy. `trace.issued` preserves Q/null, eligibility masks, Q for the executed action, base/full forecasts, and their timing.
 
-工作源码的 RND2 receipt 另提供可选字段 `base_physical_prediction` 与 `full_physical_prediction`，顺序均为 `[next_state, next_w]`；`w` 是算法可观测的代理变量，不是潜在状态真值。这两个字段在 `time` 发出，预测 `time+1` 的发布值，模型时点由原有 `base_fit_as_of` / `full_fit_as_of` 标记。首坐标分别等于旧字段 `base_state_prediction` / `full_state_prediction`；确定性的行动记忆不包含在向量内。旧 receipt 可以没有这些字段，消费者应按需读取；缺失时不能补零或推断 next-w。新增记录复用同一次预测，不增加拟合、Q 求解或随机抽样，也不改变行动、辅助残差或默认标量报警统计。向量检验需要匹配的向量校准，不能复用旧标量阈值。旧的已安装 2412 仍不含此变更；本地 .2501 wheel 已包含当前源码，旧运行环境不变。 已有 32 个真实保存快照通过旧 receipt 投影及向量预测完全一致检查，验证新增拟合、Q 求解和 DGP 步数均为零；详细版本差异与独立 H8 配对结果见下方共用附录说明。
+Worktree RND2 receipts also provide optional `base_physical_prediction` and `full_physical_prediction` fields, both ordered `[next_state, next_w]`. Here `w` is an algorithm-observable proxy, not the true latent state. The fields are issued at `time` for values released at `time+1`; the existing `base_fit_as_of` / `full_fit_as_of` marks the model vintage. Their first coordinates equal the older `base_state_prediction` / `full_state_prediction` fields. Deterministic action memory is excluded from these vectors. Old receipts may omit the fields; consumers should read them only when present and must not fill missing values with zero or infer next-w. These records reuse the same forecast, adding no fits, Q solves, or random draws and changing neither actions, auxiliary residuals, nor the default scalar alarm statistic. Vector tests need matching vector calibration; old scalar thresholds cannot be reused. The previously installed .2412 lacks this change, while the local .2501 wheel includes the current source; old runtime environments are unchanged. Thirty-two saved real snapshots passed exact checks of old-receipt projection and vector prediction, with zero additional fits, Q solves, or DGP steps. See the shared appendix below for version differences and independent paired H8 results.
 
-查看 `report.counterfactual.branches` 中的逐期 trace、实际行动、公开输入、发布时点、状态与失败；`comparison.values` 保留四个有限期折现回报，`comparison.signed_differences` 保留四个条件差分及 interaction。终值贡献为零；即使行动 planner 用 infinite-Q，这也不是生命周期福利或 true regret。任何必需分支未完成时完整比较 unavailable，支持拒绝、软件错误与主行动不可用分别保留。对比可以有正负抵消，未知项不填零。
+Inspect `report.counterfactual.branches` for period traces, executed actions, public inputs, release times, states, and failures. `comparison.values` holds four finite-horizon discounted returns; `comparison.signed_differences` holds four conditional differences and the interaction. Terminal contribution is zero. Even if the action planner uses infinite-Q, these are not lifetime welfare or true regret. If any required branch is incomplete, the full comparison is unavailable; support rejection, software errors, and unavailable main actions remain distinct. Signed contrasts can cancel, and unknown terms are not filled with zero.
 
-本接口不从四条路径自动产生 p 值或来源结论。已有两层报告可附带保存，但其假设、窗口和校准范围保持独立。旧 RND480 的来源成功来自候选解释族排除；旧 HS80 使用 observed Z。两者均不构成本次同步四分支或 hidden-Z HS 的识别功效证据。
+This interface does not automatically produce p-values or source conclusions from the four paths. Existing two-stage reports can be attached, but their assumptions, windows, and calibration scopes remain separate. Earlier RND480 source successes came from excluding candidate explanation families; earlier HS80 used observed Z. Neither supplies identification-power evidence for these synchronous four paths or hidden-Z HS.
 
-## 可选分组组合来源接口（.2410）
+## Optional Grouped-Composite Source Interface (.2410)
 
-新增 Python API `score_grouped_hs_source` 按实际报警后的完整 F/d/Q 路径分组，保留全部候选标签；max-prefix 与 terminal 各使用 .025，任一拒绝即排除。它逐组校准和流式保存证据，unknown 不作为兼容见证，CMIX 全部排除单列为候选族不足。Python CLI 与 MATLAB/Octave/Dynare wrapper 均可显式选择 `grouped_composite`，调用同一已安装控制器；原有两个选项与默认值保持原行为。接口、回调与限制见 [分组组合 API](docs/hs_grouped_composite/README.md)。独立 HS80 确认已完成：mixed 完整成功为12/20，点态95%区间为[.361,.809]；不能宣称已达到可靠高功效识别。
+The Python API `score_grouped_hs_source` groups complete post-alarm F/d/Q paths while retaining all candidate labels. Max-prefix and terminal each use .025; either rejection excludes a candidate. It calibrates group by group and streams saved evidence. Unknown is not a compatibility witness, and exclusion of all CMIX candidates is separately marked as insufficient candidate-family coverage. The Python CLI and MATLAB/Octave/Dynare wrapper can explicitly select `grouped_composite` and call the same installed controller; the other two options and default behavior remain unchanged. See the [grouped-composite API](docs/hs_grouped_composite/README.md) for interfaces, callbacks, and limits. Independent HS80 confirmation is complete: mixed full success was 12/20, with a pointwise 95% interval of [.361, .809]. This does not establish reliably high-powered identification.
 
-直接运行新的组合模式（固定工程示例，不是独立确认实验）：
+Run the new composite mode directly (a fixed engineering example, not an independent confirmation experiment):
 
 ```sh
 .venv/bin/python -I examples/hs2022/run_example.py --config examples/hs2022/smoke.json --source-policy grouped_composite --case mixed --output hs_grouped
 ```
 
-同一 MATLAB/Octave/Dynare 调用只需将第六个参数换成 `'grouped_composite'`。默认将配置 `source_alpha` 平分给 max 与 terminal；Details 显示两支预算和分数。现有 smoke 的 B=19 仅检验接线，最小秩 p=.05，因此不能在每支 .025 下拒绝。
+For the same MATLAB/Octave/Dynare call, change the sixth argument to `'grouped_composite'`. By default, the configured `source_alpha` is split equally between max and terminal; Details shows both budgets and scores. The existing smoke test with B=19 checks only wiring; its minimum rank p-value is .05, so it cannot reject at .025 per branch.
 
-## 输入、初始化与 eta
+## Input, Initialization, and Eta
 
-可以用实际观测替代示例生成的数据：
+Actual observations can replace the example-generated data:
 
 ```sh
 .venv/bin/python -I examples/hs2022/run_example.py --config examples/hs2022/smoke.json --source-policy stopped_prefix --case mixed --input-csv hs_change/observed.csv --output hs_csv
 ```
 
-CSV 列为 `release,Y,Z`；release 从 0 开始连续，Y/Z 是有限的已观测水平。Z 在本例中是观测到的环境变量，不是隐藏状态或行动。`--case` 不修改 CSV 数值或强制报警。
+CSV columns are `release,Y,Z`: release indices are consecutive starting at 0, and Y/Z are finite observed levels. Z is an observed environmental variable in this example, not a hidden state or action. `--case` neither modifies CSV values nor forces an alarm.
 
-配置中的 R 条旧转移用来拟合 G、残差变换 K 和选择 eta；仅用旧前缀，保留 127 个实际旧预测锚点。随后声明的检测区间使用当前观测。eta 按旧前缀与维持的基准高斯模型预测包络选取，支持信息及选取结果见 `report.json.context.reference`、`detector.json`。初始化失败显示 unavailable。
+The R historical transitions in the configuration fit G and residual transform K and select eta. Only the historical prefix is used, retaining 127 actual old forecast anchors. The subsequently declared detection interval uses current observations. Eta is selected using the historical prefix and the forecast envelope of the maintained baseline Gaussian model. Support information and the selection result are in `report.json.context.reference` and `detector.json`. Initialization failure is reported as unavailable.
 
-CSV 至少要覆盖旧前缀和完整检测区间。完整来源报告还须覆盖实际报警时点之后的 source_H 条转移；缺少来源观测时显示 unresolved，不补造数据。完整时钟、配置和输入要求见 [HS 示例](examples/hs2022/README.md)。
+The CSV must cover at least the historical prefix and the complete detection interval. A complete source report also needs `source_H` transitions after the actual alarm time. Missing source observations are reported as unresolved, not fabricated. See the [HS example](examples/hs2022/README.md) for the full clock, configuration, and input requirements.
 
-## 两层输出如何读
+## Reading the Two-Stage Output
 
-1. **检测层**报告声明区间内是否报警、首次报警时点和可用性。无报警不证明没有变化；无报警时来源层为 `not_entered`，不执行来源 CAL。
-2. **来源层**只从实际报警状态开始，使用完整候选 F/d/协方差及新条件 CAL。它分别检查环境类 CL、增长机制类 CM 和包含两类的 CMIX。排除 CL 可支持增长机制必要，排除 CM 可支持环境机制必要；两类均排除且联合类有兼容见证时才报告二者必要。未分离、数值未决和候选类不足均单独保留。
+1. **Detection stage** reports whether an alarm occurred in the declared interval, the first alarm time, and availability. No alarm does not prove no change. Without an alarm, the source stage is `not_entered` and source CAL is not run.
+2. **Source stage** begins only at the actual alarm state, using complete candidate F/d/covariance information and new conditional CAL. It checks environmental class CL, growth-mechanism class CM, and joint class CMIX. Excluding CL can support a necessary growth-mechanism component; excluding CM can support a necessary environmental component. Both are reported as necessary only if both single-source classes are excluded and the joint class has a compatibility witness. Non-separation, numerical indeterminacy, and insufficient candidate-family coverage remain separate outcomes.
 
-“必要”以维持的候选族为条件，不是“仅有这种变化”；兼容见证不证明真实机制属于候选族。来源报告针对声明的报警后窗口；没有时序/持续性前提时，`trigger_attribution` 保持 unavailable，不能把窗口内的变化自动写成早先报警的原因。
+"Necessary" is conditional on the maintained candidate family, not "the only change." A compatibility witness does not prove that the true mechanism belongs to that family. The source report addresses the declared post-alarm window. Without timing or persistence assumptions, `trigger_attribution` remains unavailable; a change in that window cannot automatically be labeled the cause of an earlier alarm.
 
-`stopped_prefix` 保留非空、有限的 CAL 支持前缀分数，分别标记“窗口完整”和“分数可排名”。支持退出不再计算后续残差。空前缀和数值失败按正无穷占据原 CAL 槽位，不删除、不重抽。观测窗口不完整时始终 p=1/unresolved，不能作为兼容见证。`complete_only` 则把所有不完整 CAL 都按正无穷处理。
+`stopped_prefix` retains nonempty, finite CAL scores from prefixes within support and marks "window complete" separately from "score rankable." Residuals are not computed after leaving support. Empty prefixes and numerical failures occupy their original CAL slots as positive infinity; they are neither deleted nor redrawn. An incomplete observed window always gives p=1/unresolved and cannot serve as a compatibility witness. `complete_only` instead treats every incomplete CAL path as positive infinity.
 
-## Details、完整证据与统计限制
+## Details, Full Evidence, and Statistical Limits
 
-CAL 失败槽给出的 `calibration_failure_p_floor` 只是 p 值下界。`calibration_allows_rejection=false` 表示该下界已阻止拒绝；`true` 只表示失败槽数没有阻止拒绝，不保证统计量能达到拒绝区间，也不表示功效或来源概率。第一层仅在明确提供 `cal_total_B`、`cal_failed_count` 和 `alpha` 时计算；缺失时不猜值。这些报告字段不改变报警、来源路由或 η 的适用条件。
+`calibration_failure_p_floor` from failed CAL slots is only a lower bound on the p-value. `calibration_allows_rejection=false` means that lower bound already prevents rejection; `true` means only that the number of failed slots does not prevent it. It does not guarantee that the statistic can enter the rejection region, nor does it indicate power or a source probability. The first stage computes this only when `cal_total_B`, `cal_failed_count`, and `alpha` are supplied explicitly; it does not guess missing values. These reporting fields do not change the alarm, source route, or conditions for eta.
 
-- `report.html`：轻量摘要、可展开的错误范围/假设/窗口，以及候选排名表。未知显示 unavailable，不显示为零。
-- `report.json`：明确标记为摘要；显示观测完整性、观测分数可排名性、CAL 完整数与可排名数、原 B 和失败导致的 p 值下限。
-- `report.json.gz`：完整、无损的候选输出、逐路径 flags、CAL 分数、F/d/协方差和控制器报告。每个候选只写一次；中断文件保留 `.partial`。
-- `observed.csv`、`source.csv`、`detector_arrays.npz`、`detector.json`：保留输入、实际来源窗口、检测数组和校准信息。
+- `report.html`: a compact summary, expandable error scopes/assumptions/windows, and a candidate-ranking table. Unknown values appear as unavailable, not zero.
+- `report.json`: explicitly marked as a summary; shows observed completeness, observed-score rankability, counts of complete and rankable CAL paths, the original B, and the failure-induced p-value floor.
+- `report.json.gz`: full, lossless candidate output, per-path flags, CAL scores, F/d/covariance values, and controller reports. Each candidate is written once; interrupted files retain `.partial`.
+- `observed.csv`, `source.csv`, `detector_arrays.npz`, and `detector.json`: preserve inputs, the actual source window, detection arrays, and calibration information.
 
-名义 alpha、已证明的界、经验频率和后验概率不同。可配置示例的证明界默认为 null；正确模拟器、条件交换性、完整候选族包含真实规律等前提须另行核实。检测误报范围是整个声明的基准无变化日历；来源错误范围条件于实际报警，不能用无条件来源界替代。Type II、功效和连续候选族保证尚未自动建立。
+Nominal alpha, proved bounds, empirical frequencies, and posterior probabilities are distinct. The configurable example defaults its proved bound to null. Assumptions including a correct simulator, conditional exchangeability, and a complete candidate family containing the true law must be verified separately. Detection false-alarm scope is the entire declared no-change baseline calendar; source-error scope is conditional on an actual alarm and cannot be replaced by an unconditional source bound. Type II, power, and continuous-family guarantees have not been established automatically.
 
 ## MATLAB / Octave / Dynare
 
-安装上述 wheel 后，在 MATLAB/Octave 或 Dynare 的宿主脚本中调用同一个 Python runner：
+After installing the wheel above, call the same Python runner from a MATLAB/Octave or Dynare host script:
 
 ```matlab
 addpath('/absolute/extracted/examples/hs2022');
@@ -223,18 +223,18 @@ addpath('/absolute/extracted/examples/hs2022');
   '', 'stopped_prefix');
 ```
 
-第五个参数可换为 CSV 绝对路径；第六个参数显式选择来源规则。`raw_json` 保留 JSON null，避免 Octave 解码后重编码成空数组。适配器不实现第二套估计器；Details 是本地 HTML，不是 Dynare 内置界面。其他 Dynare/GQ/eta 接口见 [接口与历史说明](README_HISTORY_PRE2409.md)，相应 `.m` 文件随包保留。
+The fifth argument may be an absolute CSV path; the sixth explicitly selects the source policy. `raw_json` preserves JSON null instead of letting Octave decode and re-encode it as an empty array. The adapter does not implement a second estimator. Details is local HTML, not a built-in Dynare interface. See the [interface and history guide](README_HISTORY_PRE2409.md) for other Dynare/GQ/eta interfaces; the corresponding `.m` files remain in the package.
 
-## 复现与资料
+## Reproduction and References
 
-- [完整 HS driver、正式参数模板与来源](examples/hs2022/README.md)。H128/H1024 模板不等于已经运行的独立确认。
-- [历史版本与接口说明](README_HISTORY_PRE2409.md)：原文保留，版本、旧结果和验证范围不改写为当前结果。
-- [理论附录](docs/two_stage_diagnosis/appendix_two_stage_diagnosis.pdf)与下方同步说明。一般保证仍以实际满足的假设为限。
+- [Full HS driver, formal parameter templates, and sources](examples/hs2022/README.md). H128/H1024 templates are not completed independent confirmations.
+- [Historical versions and interface guide](README_HISTORY_PRE2409.md): the original record is retained; versions, earlier results, and validation scopes are not recast as current results.
+- [Theory appendix](docs/two_stage_diagnosis/appendix_two_stage_diagnosis.pdf) and the synchronized explanation below. General guarantees remain limited to assumptions actually satisfied.
 
 
 Current final results and execution limits: [HS80, RND480 and separate boundary sample](docs/final_confirmation/README.md). Earlier balanced16 results below belong to the prior stopped-prefix rule and are not pooled with HS80.
 
-## .2411 原生闭环实现与工程验证记录
+## .2411 Native Closed-Loop Implementation and Engineering Verification
 
 The base RND2 workflow now has one installed entry connecting released initialization, actual eta selection, native H10/infinite behavior, live detection, acknowledged supported acquisition, released source observations and two-stage JSON/HTML Details. See [native host loop guide](examples/native_source_loop/README.md).
 

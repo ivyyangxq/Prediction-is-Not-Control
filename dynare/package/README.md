@@ -1,5 +1,9 @@
 # PINC: From Change Detection to Source Diagnosis
 
+## English-Language Package Update — 0.2.0.dev2026101201
+
+This version translates the two toolbox READMEs and the generated two-stage HTML report interface into English. The detector, source procedures, statistical thresholds, schemas, and calibration behavior are unchanged. The earlier wheel remains available as a historical artifact; the new wheel has a distinct version rather than silently replacing it. Caller-supplied text in saved reports is rendered as supplied and is not translated by the package.
+
 ## Scientific scope and saved KS delivery — 2026-10-07, version 0.2.0.dev2026100702
 
 The software separates first-stage alarms from final finite-family model-involvement reports. A first alarm can lead to an unresolved follow-up; technical and support unavailability remain explicit. The conditional two-stage error statement requires admitted true-law coverage, matched conditional calibration and a follow-up guarantee uniform conditional on the full entry history. Package execution and observed proportions do not verify those assumptions or supply switching-source posterior probabilities.
@@ -107,7 +111,7 @@ From the extracted distribution root, run:
 
 ```sh
 python -m venv .venv
-.venv/bin/python -m pip install ./pinc_toolbox-0.2.0.dev2026092701-py3-none-any.whl
+.venv/bin/python -m pip install ./wheel/pinc_toolbox-0.2.0.dev2026101201-py3-none-any.whl
 .venv/bin/python -I examples/hs2022/run_example.py --config examples/hs2022/smoke.json --source-policy stopped_prefix --case reference --output hs_null
 .venv/bin/python -I examples/hs2022/run_example.py --config examples/hs2022/smoke.json --source-policy stopped_prefix --case mixed --output hs_change
 ```

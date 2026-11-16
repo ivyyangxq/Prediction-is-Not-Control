@@ -1,6 +1,10 @@
 # GQ Tool for Python
 
-This is an independently installable Python package. No research checkout, PYTHONPATH setting or manual extension copying is required. The `gq-tool` command opens a Jupyter notebook containing the unified workbench.
+Use this notebook workbench to study repeated decisions from records of actual actions and outcomes. You load two data tables, define a numerical objective, and inspect the actions recommended by the learning method over time. Reports explain when a recommendation is available and when information is missing. You can export results and save a session to continue later.
+
+Start with the small example below. For an overview of the inputs, outputs, and an illustrative investment decision, see the [README](../README.md). The later sections of this guide explain the additional requirements for investigating changes and running simulated comparisons.
+
+The package installs independently. The `gq-tool` command opens its Jupyter notebook; no research project folder or manual file copying is required.
 
 ## Install and launch
 

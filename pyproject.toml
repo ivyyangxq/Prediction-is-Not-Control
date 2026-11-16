@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "gq-tool"
 version = "1.0.3"
-description = "Independent installed GQ Tool workbench"
+description = "Study repeated decisions from action and outcome data in a Python notebook"
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]

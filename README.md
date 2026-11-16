@@ -1,24 +1,39 @@
-# Prediction is Not Control
+# GQ Tool
 
-Python and Dynare-facing packages for the GQ / RA-GQ toolbox.
+A Python workbench for fixed-objective GQ learning from released panel data, with explicit reward inputs and parameters, support checks, evidence workflows, checkpoints and controlled ABCD comparisons.
 
-## Downloads
+## Install
 
-The current research development release is **0.2.0.dev2026100702**. Download the Python ZIP, Dynare ZIP, or Python wheel from [Releases](https://github.com/ivyyangxq/Prediction-is-Not-Control/releases).
+Download the wheel from GitHub Releases, then run:
 
-- [Python package and instructions](python/package/README.md)
-- [Dynare-facing package and instructions](dynare/package/README.md)
+```sh
+python -m pip install /path/to/gq_tool-1.0.3-py3-none-any.whl
+gq-tool --check
+gq-tool
+```
 
-The Dynare-facing package uses MATLAB/Octave bridges to the installed Python core. It is not a separate Dynare-native solver.
+For a source checkout: `python -m pip install .`.
 
-## Main algorithm
+The distribution name is `gq-tool`; the Python import namespace remains `pinc_toolbox`. No research checkout or PYTHONPATH configuration is required. This release has not been published to PyPI; do not assume `pip install gq-tool` resolves to this project.
 
-This release retains the existing floating previous-action anchor and auxiliary state `(delta_gamma, delta_m, e_t)`. The first two coordinates measure changes in fitted action response and baseline predictions between G vintages; the third is the observed first state coordinate minus its previously issued BASE forecast. Historical auxiliary records remain paired with their dated observations.
+## Start here
 
-The new stagewise epsilon auxiliary-state trial from 8 October 2026 is experimental and is not included. Experimental repair routines are not included.
+- [User guide](docs/START_HERE.md)
+- [Installation](docs/INSTALL.md)
+- [Jupyter workbench](notebooks/GQ_tool.ipynb)
+- [One-seed validation](docs/ONE_SEED_TEST.md)
+- [Contributing and tests](CONTRIBUTING.md)
 
-## Validation and scope
+Copy runnable starter files with `gq-tool --copy-example NEW_DIRECTORY`.
 
-The installed four-path Bellman engineering example completed on 8 October 2026. Earlier Python/Octave package checks and saved KS exhibit regeneration are described in [delivery notes](SOFTWARE_DELIVERY.md). MATLAB and Dynare model execution were not tested. The KS scientific simulator and research data are not bundled; the package includes a saved-exhibit exporter.
+## Scope
 
-This is a research development release. Detection guarantees require the stated support, calibration and candidate-law assumptions; empirical proportions are not posterior source probabilities.
+Ordinary panel data do not automatically identify detector calibration, conditional laws or sources. Missing premises remain unresolved. Available recommendations and finite ABCD returns do not establish economic recovery. Actual actions must remain distinct from recommendations. See the guide for release, support and fixed-objective requirements.
+
+The fixed CM seed integration test covers fresh acquisition, 24 decisions, source verification, explicit repair, checkpoints and executed ABCD paths. It is not a statistical power or economic-improvement study. CI and cross-platform status must be assessed from actual workflow results.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
+This is the initial installation README; a fuller research overview and API documentation will be developed separately.

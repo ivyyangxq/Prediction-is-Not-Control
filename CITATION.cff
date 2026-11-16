@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the software version used in your research."
+type: software
+title: "GQ Tool"
+authors:
+  - name: "GQ Tool contributors"
+version: 1.0.3
+license: MIT
+repository-code: "https://github.com/ivyyangxq/Prediction-is-Not-Control"

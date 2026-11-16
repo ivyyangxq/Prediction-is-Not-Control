@@ -1,0 +1,5191 @@
+{
+  "status": "complete",
+  "A_all_statistical_slots_complete": true,
+  "R_execution_complete": true,
+  "slots": [
+    {
+      "slot": 0,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0004624981203648512,
+      "seed": 3252601000,
+      "attempt": 1
+    },
+    {
+      "slot": 1,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.004632107730134715,
+      "seed": 3252601003,
+      "attempt": 1
+    },
+    {
+      "slot": 2,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0001514373384376748,
+      "seed": 3252601006,
+      "attempt": 1
+    },
+    {
+      "slot": 3,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.00030853495963951803,
+      "seed": 3252601009,
+      "attempt": 1
+    },
+    {
+      "slot": 4,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0007610524221797621,
+      "seed": 3252601012,
+      "attempt": 1
+    },
+    {
+      "slot": 5,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.000601625204447589,
+      "seed": 3252601015,
+      "attempt": 1
+    },
+    {
+      "slot": 6,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 7.514870527585518e-05,
+      "seed": 3252601018,
+      "attempt": 1
+    },
+    {
+      "slot": 7,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.016723760858671822,
+      "seed": 3252601021,
+      "attempt": 1
+    },
+    {
+      "slot": 8,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.00011879630000267363,
+      "seed": 3252601024,
+      "attempt": 1
+    },
+    {
+      "slot": 9,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.002770309471846476,
+      "seed": 3252601027,
+      "attempt": 1
+    },
+    {
+      "slot": 10,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0001501703667901482,
+      "seed": 3252601030,
+      "attempt": 1
+    },
+    {
+      "slot": 11,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.006199305127096222,
+      "seed": 3252601033,
+      "attempt": 1
+    },
+    {
+      "slot": 12,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0014587214873496663,
+      "seed": 3252601036,
+      "attempt": 1
+    },
+    {
+      "slot": 13,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.00037262616043847694,
+      "seed": 3252601039,
+      "attempt": 1
+    },
+    {
+      "slot": 14,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.007699396586810067,
+      "seed": 3252601042,
+      "attempt": 1
+    },
+    {
+      "slot": 15,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.002286175006055129,
+      "seed": 3252601045,
+      "attempt": 1
+    },
+    {
+      "slot": 16,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0006462842008755083,
+      "seed": 3252601048,
+      "attempt": 1
+    },
+    {
+      "slot": 17,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.00010339540640863847,
+      "seed": 3252601051,
+      "attempt": 1
+    },
+    {
+      "slot": 18,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.00038208181453112955,
+      "seed": 3252601054,
+      "attempt": 1
+    },
+    {
+      "slot": 19,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0020757044917553693,
+      "seed": 3252601057,
+      "attempt": 1
+    },
+    {
+      "slot": 20,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.000837447823942602,
+      "seed": 3252601060,
+      "attempt": 1
+    },
+    {
+      "slot": 21,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.00023665494191055993,
+      "seed": 3252601063,
+      "attempt": 1
+    },
+    {
+      "slot": 22,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.00022620029785972635,
+      "seed": 3252601066,
+      "attempt": 1
+    },
+    {
+      "slot": 23,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0029813346277545952,
+      "seed": 3252601069,
+      "attempt": 1
+    },
+    {
+      "slot": 24,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0003170094467718978,
+      "seed": 3252601072,
+      "attempt": 1
+    },
+    {
+      "slot": 25,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 3.715399184195041e-05,
+      "seed": 3252601076,
+      "attempt": 2
+    },
+    {
+      "slot": 26,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0016999013610465824,
+      "seed": 3252601078,
+      "attempt": 1
+    },
+    {
+      "slot": 27,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.014578665358585072,
+      "seed": 3252601081,
+      "attempt": 1
+    },
+    {
+      "slot": 28,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.000118072587737905,
+      "seed": 3252601084,
+      "attempt": 1
+    },
+    {
+      "slot": 29,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0009827626144043027,
+      "seed": 3252601087,
+      "attempt": 1
+    },
+    {
+      "slot": 30,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0025393402169998133,
+      "seed": 3252601090,
+      "attempt": 1
+    },
+    {
+      "slot": 31,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 9.53753235231255e-05,
+      "seed": 3252601093,
+      "attempt": 1
+    },
+    {
+      "slot": 32,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.009954199140029858,
+      "seed": 3252601096,
+      "attempt": 1
+    },
+    {
+      "slot": 33,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0016886845185093945,
+      "seed": 3252601099,
+      "attempt": 1
+    },
+    {
+      "slot": 34,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0024233844535279845,
+      "seed": 3252601102,
+      "attempt": 1
+    },
+    {
+      "slot": 35,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0023802494850118884,
+      "seed": 3252601105,
+      "attempt": 1
+    },
+    {
+      "slot": 36,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 5.63705496632687e-05,
+      "seed": 3252601108,
+      "attempt": 1
+    },
+    {
+      "slot": 37,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.00032658768422151114,
+      "seed": 3252601111,
+      "attempt": 1
+    },
+    {
+      "slot": 38,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.005340197374721055,
+      "seed": 3252601115,
+      "attempt": 2
+    },
+    {
+      "slot": 39,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.008669586137627732,
+      "seed": 3252601117,
+      "attempt": 1
+    },
+    {
+      "slot": 40,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 9.190792294456755e-05,
+      "seed": 3252601120,
+      "attempt": 1
+    },
+    {
+      "slot": 41,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 1.4451652492352848e-06,
+      "seed": 3252601123,
+      "attempt": 1
+    },
+    {
+      "slot": 42,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.00044990895223001034,
+      "seed": 3252601126,
+      "attempt": 1
+    },
+    {
+      "slot": 43,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.00036774834172518015,
+      "seed": 3252601129,
+      "attempt": 1
+    },
+    {
+      "slot": 44,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0010232816728662439,
+      "seed": 3252601132,
+      "attempt": 1
+    },
+    {
+      "slot": 45,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 4.402786789585217e-05,
+      "seed": 3252601135,
+      "attempt": 1
+    },
+    {
+      "slot": 46,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.002170046197293207,
+      "seed": 3252601138,
+      "attempt": 1
+    },
+    {
+      "slot": 47,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.006587506731454621,
+      "seed": 3252601141,
+      "attempt": 1
+    },
+    {
+      "slot": 48,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0011531476165167072,
+      "seed": 3252601144,
+      "attempt": 1
+    },
+    {
+      "slot": 49,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0012299615831828639,
+      "seed": 3252601147,
+      "attempt": 1
+    },
+    {
+      "slot": 50,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 3.728786756565841e-05,
+      "seed": 3252601150,
+      "attempt": 1
+    },
+    {
+      "slot": 51,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.00415129637116073,
+      "seed": 3252601153,
+      "attempt": 1
+    },
+    {
+      "slot": 52,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0011715087861133445,
+      "seed": 3252601156,
+      "attempt": 1
+    },
+    {
+      "slot": 53,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0009170069367791037,
+      "seed": 3252601159,
+      "attempt": 1
+    },
+    {
+      "slot": 54,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 9.299853415415222e-06,
+      "seed": 3252601162,
+      "attempt": 1
+    },
+    {
+      "slot": 55,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 1.8548390441497336e-08,
+      "seed": 3252601165,
+      "attempt": 1
+    },
+    {
+      "slot": 56,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 0.0007262488840625757,
+      "seed": 3252601168,
+      "attempt": 1
+    },
+    {
+      "slot": 57,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 2.497138903843891e-06,
+      "seed": 3252601171,
+      "attempt": 1
+    },
+    {
+      "slot": 58,
+      "status": "accepted",
+      "score_kind": "finite",
+      "score": 7.811033892538141e-07,
+      "seed": 3252601174,
+      "attempt": 1
+    }
+  ],
+  "assigned": [
+    {
+      "slot": 0,
+      "attempt": 1,
+      "seed": 3252601000,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 0,
+          "attempt": 1,
+          "seed": 3252601000,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0001740734486634699,
+          "serial": 0.0004624981203648512,
+          "signed_serial_numerator": 0.0023383037385872702,
+          "serial_denominator": 0.011822025070237961
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601000",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 0,
+      "attempt": 2,
+      "seed": 3252601001,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 0,
+      "attempt": 3,
+      "seed": 3252601002,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 1,
+      "attempt": 1,
+      "seed": 3252601003,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 1,
+          "attempt": 1,
+          "seed": 3252601003,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.00018241535329625885,
+          "serial": 0.004632107730134715,
+          "signed_serial_numerator": -0.01116459937862343,
+          "serial_denominator": 0.0269096244187597
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601003",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 1,
+      "attempt": 2,
+      "seed": 3252601004,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 1,
+      "attempt": 3,
+      "seed": 3252601005,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 2,
+      "attempt": 1,
+      "seed": 3252601006,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 2,
+          "attempt": 1,
+          "seed": 3252601006,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0005751647434717112,
+          "serial": 0.0001514373384376748,
+          "signed_serial_numerator": -0.0019171970692916697,
+          "serial_denominator": 0.02427171951396457
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601006",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 2,
+      "attempt": 2,
+      "seed": 3252601007,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 2,
+      "attempt": 3,
+      "seed": 3252601008,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 3,
+      "attempt": 1,
+      "seed": 3252601009,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 3,
+          "attempt": 1,
+          "seed": 3252601009,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0001716045101177184,
+          "serial": 0.00030853495963951803,
+          "signed_serial_numerator": 0.0016049156621043938,
+          "serial_denominator": 0.00834833850101593
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601009",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 3,
+      "attempt": 2,
+      "seed": 3252601010,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 3,
+      "attempt": 3,
+      "seed": 3252601011,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 4,
+      "attempt": 1,
+      "seed": 3252601012,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 4,
+          "attempt": 1,
+          "seed": 3252601012,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0006753244009563833,
+          "serial": 0.0007610524221797621,
+          "signed_serial_numerator": -0.004700231155360744,
+          "serial_denominator": 0.02902845095814646
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601012",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 4,
+      "attempt": 2,
+      "seed": 3252601013,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 4,
+      "attempt": 3,
+      "seed": 3252601014,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 5,
+      "attempt": 1,
+      "seed": 3252601015,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 5,
+          "attempt": 1,
+          "seed": 3252601015,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 4.238869939196794e-05,
+          "serial": 0.000601625204447589,
+          "signed_serial_numerator": 0.003364872698464451,
+          "serial_denominator": 0.01881963753042496
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601015",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 5,
+      "attempt": 2,
+      "seed": 3252601016,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 5,
+      "attempt": 3,
+      "seed": 3252601017,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 6,
+      "attempt": 1,
+      "seed": 3252601018,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 6,
+          "attempt": 1,
+          "seed": 3252601018,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0003429258192699673,
+          "serial": 7.514870527585518e-05,
+          "signed_serial_numerator": -0.0015946808406468024,
+          "serial_denominator": 0.033839664624841434
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601018",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 6,
+      "attempt": 2,
+      "seed": 3252601019,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 6,
+      "attempt": 3,
+      "seed": 3252601020,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 7,
+      "attempt": 1,
+      "seed": 3252601021,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 7,
+          "attempt": 1,
+          "seed": 3252601021,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 8.154646703822771e-05,
+          "serial": 0.016723760858671822,
+          "signed_serial_numerator": -0.02538387392572445,
+          "serial_denominator": 0.03852847818874196
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601021",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 7,
+      "attempt": 2,
+      "seed": 3252601022,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 7,
+      "attempt": 3,
+      "seed": 3252601023,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 8,
+      "attempt": 1,
+      "seed": 3252601024,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 8,
+          "attempt": 1,
+          "seed": 3252601024,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 2.1219265389439115e-05,
+          "serial": 0.00011879630000267363,
+          "signed_serial_numerator": 0.0010837537007809218,
+          "serial_denominator": 0.009886857452041098
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601024",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 8,
+      "attempt": 2,
+      "seed": 3252601025,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 8,
+      "attempt": 3,
+      "seed": 3252601026,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 9,
+      "attempt": 1,
+      "seed": 3252601027,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 9,
+          "attempt": 1,
+          "seed": 3252601027,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0005552639642982361,
+          "serial": 0.002770309471846476,
+          "signed_serial_numerator": -0.007036712198203682,
+          "serial_denominator": 0.01787356938405346
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601027",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 9,
+      "attempt": 2,
+      "seed": 3252601028,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 9,
+      "attempt": 3,
+      "seed": 3252601029,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 10,
+      "attempt": 1,
+      "seed": 3252601030,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 10,
+          "attempt": 1,
+          "seed": 3252601030,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0002864554071023821,
+          "serial": 0.0001501703667901482,
+          "signed_serial_numerator": -0.002207690678113248,
+          "serial_denominator": 0.03245579160793445
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601030",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 10,
+      "attempt": 2,
+      "seed": 3252601031,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 10,
+      "attempt": 3,
+      "seed": 3252601032,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 11,
+      "attempt": 1,
+      "seed": 3252601033,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 11,
+          "attempt": 1,
+          "seed": 3252601033,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0008302969077418753,
+          "serial": 0.006199305127096222,
+          "signed_serial_numerator": 0.006581419736189677,
+          "serial_denominator": 0.0069870872389525265
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601033",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 11,
+      "attempt": 2,
+      "seed": 3252601034,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 11,
+      "attempt": 3,
+      "seed": 3252601035,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 12,
+      "attempt": 1,
+      "seed": 3252601036,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 12,
+          "attempt": 1,
+          "seed": 3252601036,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 1.0963593647023432e-05,
+          "serial": 0.0014587214873496663,
+          "signed_serial_numerator": 0.004927593042642932,
+          "serial_denominator": 0.016645516916336915
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601036",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 12,
+      "attempt": 2,
+      "seed": 3252601037,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 12,
+      "attempt": 3,
+      "seed": 3252601038,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 13,
+      "attempt": 1,
+      "seed": 3252601039,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 13,
+          "attempt": 1,
+          "seed": 3252601039,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 2.7252426002222453e-05,
+          "serial": 0.00037262616043847694,
+          "signed_serial_numerator": 0.0015989735559439186,
+          "serial_denominator": 0.006861344435933858
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601039",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 13,
+      "attempt": 2,
+      "seed": 3252601040,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 13,
+      "attempt": 3,
+      "seed": 3252601041,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 14,
+      "attempt": 1,
+      "seed": 3252601042,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 14,
+          "attempt": 1,
+          "seed": 3252601042,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 1.6056438236176487e-05,
+          "serial": 0.007699396586810067,
+          "signed_serial_numerator": 0.009288644958633598,
+          "serial_denominator": 0.011205933373448364
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601042",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 14,
+      "attempt": 2,
+      "seed": 3252601043,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 14,
+      "attempt": 3,
+      "seed": 3252601044,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 15,
+      "attempt": 1,
+      "seed": 3252601045,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 15,
+          "attempt": 1,
+          "seed": 3252601045,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0010480876691455116,
+          "serial": 0.002286175006055129,
+          "signed_serial_numerator": 0.006603750025631516,
+          "serial_denominator": 0.019075317631207032
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601045",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 15,
+      "attempt": 2,
+      "seed": 3252601046,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 15,
+      "attempt": 3,
+      "seed": 3252601047,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 16,
+      "attempt": 1,
+      "seed": 3252601048,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 16,
+          "attempt": 1,
+          "seed": 3252601048,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 9.710834966895971e-05,
+          "serial": 0.0006462842008755083,
+          "signed_serial_numerator": 0.002210378219396016,
+          "serial_denominator": 0.007559788505059612
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601048",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 16,
+      "attempt": 2,
+      "seed": 3252601049,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 16,
+      "attempt": 3,
+      "seed": 3252601050,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 17,
+      "attempt": 1,
+      "seed": 3252601051,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 17,
+          "attempt": 1,
+          "seed": 3252601051,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0001589585052650678,
+          "serial": 0.00010339540640863847,
+          "signed_serial_numerator": 0.0013749798356872955,
+          "serial_denominator": 0.01828485049978692
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601051",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 17,
+      "attempt": 2,
+      "seed": 3252601052,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 17,
+      "attempt": 3,
+      "seed": 3252601053,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 18,
+      "attempt": 1,
+      "seed": 3252601054,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 18,
+          "attempt": 1,
+          "seed": 3252601054,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0006219322747329651,
+          "serial": 0.00038208181453112955,
+          "signed_serial_numerator": -0.0017849837088437005,
+          "serial_denominator": 0.008338964901397643
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601054",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 18,
+      "attempt": 2,
+      "seed": 3252601055,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 18,
+      "attempt": 3,
+      "seed": 3252601056,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 19,
+      "attempt": 1,
+      "seed": 3252601057,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 19,
+          "attempt": 1,
+          "seed": 3252601057,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.00029037590748790204,
+          "serial": 0.0020757044917553693,
+          "signed_serial_numerator": -0.006696964685330606,
+          "serial_denominator": 0.021606802015751946
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601057",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 19,
+      "attempt": 2,
+      "seed": 3252601058,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 19,
+      "attempt": 3,
+      "seed": 3252601059,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 20,
+      "attempt": 1,
+      "seed": 3252601060,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 20,
+          "attempt": 1,
+          "seed": 3252601060,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.00029884056623704405,
+          "serial": 0.000837447823942602,
+          "signed_serial_numerator": 0.0036745766040306342,
+          "serial_denominator": 0.01612340832808081
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601060",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 20,
+      "attempt": 2,
+      "seed": 3252601061,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 20,
+      "attempt": 3,
+      "seed": 3252601062,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 21,
+      "attempt": 1,
+      "seed": 3252601063,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 21,
+          "attempt": 1,
+          "seed": 3252601063,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 4.3798257059647585e-05,
+          "serial": 0.00023665494191055993,
+          "signed_serial_numerator": -0.0017683739020861607,
+          "serial_denominator": 0.013213948681288428
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601063",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 21,
+      "attempt": 2,
+      "seed": 3252601064,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 21,
+      "attempt": 3,
+      "seed": 3252601065,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 22,
+      "attempt": 1,
+      "seed": 3252601066,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 22,
+          "attempt": 1,
+          "seed": 3252601066,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0004680615972063533,
+          "serial": 0.00022620029785972635,
+          "signed_serial_numerator": 0.0016556479451653072,
+          "serial_denominator": 0.012118331161659156
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601066",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 22,
+      "attempt": 2,
+      "seed": 3252601067,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 22,
+      "attempt": 3,
+      "seed": 3252601068,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 23,
+      "attempt": 1,
+      "seed": 3252601069,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 23,
+          "attempt": 1,
+          "seed": 3252601069,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.00015005244614639136,
+          "serial": 0.0029813346277545952,
+          "signed_serial_numerator": -0.00726520350275065,
+          "serial_denominator": 0.017704547971568747
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601069",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 23,
+      "attempt": 2,
+      "seed": 3252601070,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 23,
+      "attempt": 3,
+      "seed": 3252601071,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 24,
+      "attempt": 1,
+      "seed": 3252601072,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 24,
+          "attempt": 1,
+          "seed": 3252601072,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0011920570625669072,
+          "serial": 0.0003170094467718978,
+          "signed_serial_numerator": -0.0018121233843402709,
+          "serial_denominator": 0.010358653956567009
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601072",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 24,
+      "attempt": 2,
+      "seed": 3252601073,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 24,
+      "attempt": 3,
+      "seed": 3252601074,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 25,
+      "attempt": 1,
+      "seed": 3252601075,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "main_support_refusal",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 25,
+          "attempt": 1,
+          "seed": 3252601075,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "main_support_refusal",
+        "scores": null,
+        "completed_dates": 6,
+        "failure": {
+          "phase": "choose_support",
+          "time": 38,
+          "type": "SupportError",
+          "reason": "no supported full RA-GQ action",
+          "classification": {
+            "status": "support_unavailable",
+            "reason": "native_support_or_domain",
+            "exception_type": "SupportError",
+            "message": "no supported full RA-GQ action"
+          }
+        },
+        "episode_dir": "episode_3252601075",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 14,
+          "native_G_succeeded": 14,
+          "Q_attempted": 7,
+          "Q_succeeded": 7,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 38,
+          "host_calls_succeeded": 38,
+          "transitions_attempted": 1216,
+          "transitions_succeeded": 1216
+        },
+        "route_counts": {
+          "main_q_calls": 31
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 25,
+      "attempt": 2,
+      "seed": 3252601076,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 25,
+          "attempt": 2,
+          "seed": 3252601076,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 2.3731052542601536e-05,
+          "serial": 3.715399184195041e-05,
+          "signed_serial_numerator": 0.0007990413835931862,
+          "serial_denominator": 0.017184348196298597
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601076",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 25,
+      "attempt": 3,
+      "seed": 3252601077,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 26,
+      "attempt": 1,
+      "seed": 3252601078,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 26,
+          "attempt": 1,
+          "seed": 3252601078,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.00016371962847406386,
+          "serial": 0.0016999013610465824,
+          "signed_serial_numerator": 0.005899840071606885,
+          "serial_denominator": 0.02047654862109643
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601078",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 26,
+      "attempt": 2,
+      "seed": 3252601079,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 26,
+      "attempt": 3,
+      "seed": 3252601080,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 27,
+      "attempt": 1,
+      "seed": 3252601081,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 27,
+          "attempt": 1,
+          "seed": 3252601081,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 9.530834224518083e-05,
+          "serial": 0.014578665358585072,
+          "signed_serial_numerator": -0.021410479105498877,
+          "serial_denominator": 0.0314437984720636
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601081",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 27,
+      "attempt": 2,
+      "seed": 3252601082,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 27,
+      "attempt": 3,
+      "seed": 3252601083,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 28,
+      "attempt": 1,
+      "seed": 3252601084,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 28,
+          "attempt": 1,
+          "seed": 3252601084,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.00011012463158770784,
+          "serial": 0.000118072587737905,
+          "signed_serial_numerator": -0.001051570472156842,
+          "serial_denominator": 0.009365429174524362
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601084",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 28,
+      "attempt": 2,
+      "seed": 3252601085,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 28,
+      "attempt": 3,
+      "seed": 3252601086,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 29,
+      "attempt": 1,
+      "seed": 3252601087,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 29,
+          "attempt": 1,
+          "seed": 3252601087,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 2.096600474025771e-05,
+          "serial": 0.0009827626144043027,
+          "signed_serial_numerator": -0.0031692786523108032,
+          "serial_denominator": 0.010220501908369097
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601087",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 29,
+      "attempt": 2,
+      "seed": 3252601088,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 29,
+      "attempt": 3,
+      "seed": 3252601089,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 30,
+      "attempt": 1,
+      "seed": 3252601090,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 30,
+          "attempt": 1,
+          "seed": 3252601090,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 2.1909806387119073e-05,
+          "serial": 0.0025393402169998133,
+          "signed_serial_numerator": -0.007272664467342264,
+          "serial_denominator": 0.020828894096370152
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601090",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 30,
+      "attempt": 2,
+      "seed": 3252601091,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 30,
+      "attempt": 3,
+      "seed": 3252601092,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 31,
+      "attempt": 1,
+      "seed": 3252601093,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 31,
+          "attempt": 1,
+          "seed": 3252601093,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.00012094143051604132,
+          "serial": 9.53753235231255e-05,
+          "signed_serial_numerator": 0.0014334434439325318,
+          "serial_denominator": 0.02154393852677147
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601093",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 31,
+      "attempt": 2,
+      "seed": 3252601094,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 31,
+      "attempt": 3,
+      "seed": 3252601095,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 32,
+      "attempt": 1,
+      "seed": 3252601096,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 32,
+          "attempt": 1,
+          "seed": 3252601096,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 1.3098339536740504e-06,
+          "serial": 0.009954199140029858,
+          "signed_serial_numerator": 0.014551711009184589,
+          "serial_denominator": 0.021272659941399246
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601096",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 32,
+      "attempt": 2,
+      "seed": 3252601097,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 32,
+      "attempt": 3,
+      "seed": 3252601098,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 33,
+      "attempt": 1,
+      "seed": 3252601099,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 33,
+          "attempt": 1,
+          "seed": 3252601099,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0005256847467818702,
+          "serial": 0.0016886845185093945,
+          "signed_serial_numerator": -0.00568500854614133,
+          "serial_denominator": 0.019138756715924826
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601099",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 33,
+      "attempt": 2,
+      "seed": 3252601100,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 33,
+      "attempt": 3,
+      "seed": 3252601101,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 34,
+      "attempt": 1,
+      "seed": 3252601102,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 34,
+          "attempt": 1,
+          "seed": 3252601102,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0011962123021435015,
+          "serial": 0.0024233844535279845,
+          "signed_serial_numerator": -0.006654261101530602,
+          "serial_denominator": 0.01827163277493228
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601102",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 34,
+      "attempt": 2,
+      "seed": 3252601103,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 34,
+      "attempt": 3,
+      "seed": 3252601104,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 35,
+      "attempt": 1,
+      "seed": 3252601105,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 35,
+          "attempt": 1,
+          "seed": 3252601105,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0003233008063918938,
+          "serial": 0.0023802494850118884,
+          "signed_serial_numerator": 0.007880149823011252,
+          "serial_denominator": 0.026088341421401092
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601105",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 35,
+      "attempt": 2,
+      "seed": 3252601106,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 35,
+      "attempt": 3,
+      "seed": 3252601107,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 36,
+      "attempt": 1,
+      "seed": 3252601108,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 36,
+          "attempt": 1,
+          "seed": 3252601108,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0009751994494248294,
+          "serial": 5.63705496632687e-05,
+          "signed_serial_numerator": -0.0010419085888882349,
+          "serial_denominator": 0.019257813061674622
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601108",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 36,
+      "attempt": 2,
+      "seed": 3252601109,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 36,
+      "attempt": 3,
+      "seed": 3252601110,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 37,
+      "attempt": 1,
+      "seed": 3252601111,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 37,
+          "attempt": 1,
+          "seed": 3252601111,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.00016262663352719972,
+          "serial": 0.00032658768422151114,
+          "signed_serial_numerator": -0.002210986713375998,
+          "serial_denominator": 0.014968299427389165
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601111",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 37,
+      "attempt": 2,
+      "seed": 3252601112,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 37,
+      "attempt": 3,
+      "seed": 3252601113,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 38,
+      "attempt": 1,
+      "seed": 3252601114,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "main_support_refusal",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 38,
+          "attempt": 1,
+          "seed": 3252601114,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "main_support_refusal",
+        "scores": null,
+        "completed_dates": 6,
+        "failure": {
+          "phase": "choose_support",
+          "time": 38,
+          "type": "SupportError",
+          "reason": "no supported full RA-GQ action",
+          "classification": {
+            "status": "support_unavailable",
+            "reason": "native_support_or_domain",
+            "exception_type": "SupportError",
+            "message": "no supported full RA-GQ action"
+          }
+        },
+        "episode_dir": "episode_3252601114",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 14,
+          "native_G_succeeded": 14,
+          "Q_attempted": 7,
+          "Q_succeeded": 7,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 38,
+          "host_calls_succeeded": 38,
+          "transitions_attempted": 1216,
+          "transitions_succeeded": 1216
+        },
+        "route_counts": {
+          "main_q_calls": 31
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 38,
+      "attempt": 2,
+      "seed": 3252601115,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 38,
+          "attempt": 2,
+          "seed": 3252601115,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0011720382753674693,
+          "serial": 0.005340197374721055,
+          "signed_serial_numerator": 0.007340329445977534,
+          "serial_denominator": 0.010089596431498806
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601115",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 38,
+      "attempt": 3,
+      "seed": 3252601116,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 39,
+      "attempt": 1,
+      "seed": 3252601117,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 39,
+          "attempt": 1,
+          "seed": 3252601117,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 1.689301448877007e-05,
+          "serial": 0.008669586137627732,
+          "signed_serial_numerator": 0.011901009884879854,
+          "serial_denominator": 0.01633688552505269
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601117",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 39,
+      "attempt": 2,
+      "seed": 3252601118,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 39,
+      "attempt": 3,
+      "seed": 3252601119,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 40,
+      "attempt": 1,
+      "seed": 3252601120,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 40,
+          "attempt": 1,
+          "seed": 3252601120,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.00018463857674930973,
+          "serial": 9.190792294456755e-05,
+          "signed_serial_numerator": -0.0014313097719972404,
+          "serial_denominator": 0.022290218272589996
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601120",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 40,
+      "attempt": 2,
+      "seed": 3252601121,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 40,
+      "attempt": 3,
+      "seed": 3252601122,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 41,
+      "attempt": 1,
+      "seed": 3252601123,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 41,
+          "attempt": 1,
+          "seed": 3252601123,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 9.088974482845544e-06,
+          "serial": 1.4451652492352848e-06,
+          "signed_serial_numerator": -8.367914603940986e-05,
+          "serial_denominator": 0.0048452586896828576
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601123",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 41,
+      "attempt": 2,
+      "seed": 3252601124,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 41,
+      "attempt": 3,
+      "seed": 3252601125,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 42,
+      "attempt": 1,
+      "seed": 3252601126,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 42,
+          "attempt": 1,
+          "seed": 3252601126,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0005646503497798701,
+          "serial": 0.00044990895223001034,
+          "signed_serial_numerator": -0.0015162835414133098,
+          "serial_denominator": 0.0051101801076976466
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601126",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 42,
+      "attempt": 2,
+      "seed": 3252601127,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 42,
+      "attempt": 3,
+      "seed": 3252601128,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 43,
+      "attempt": 1,
+      "seed": 3252601129,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 43,
+          "attempt": 1,
+          "seed": 3252601129,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 5.5594430535264486e-05,
+          "serial": 0.00036774834172518015,
+          "signed_serial_numerator": 0.00152223233411688,
+          "serial_denominator": 0.006301024412946427
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601129",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 43,
+      "attempt": 2,
+      "seed": 3252601130,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 43,
+      "attempt": 3,
+      "seed": 3252601131,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 44,
+      "attempt": 1,
+      "seed": 3252601132,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 44,
+          "attempt": 1,
+          "seed": 3252601132,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0002485796789146055,
+          "serial": 0.0010232816728662439,
+          "signed_serial_numerator": -0.003202267266641349,
+          "serial_denominator": 0.010021205225223512
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601132",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 44,
+      "attempt": 2,
+      "seed": 3252601133,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 44,
+      "attempt": 3,
+      "seed": 3252601134,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 45,
+      "attempt": 1,
+      "seed": 3252601135,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 45,
+          "attempt": 1,
+          "seed": 3252601135,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 8.188618016948173e-05,
+          "serial": 4.402786789585217e-05,
+          "signed_serial_numerator": -0.0007618682746644055,
+          "serial_denominator": 0.01318354250796688
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601135",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 45,
+      "attempt": 2,
+      "seed": 3252601136,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 45,
+      "attempt": 3,
+      "seed": 3252601137,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 46,
+      "attempt": 1,
+      "seed": 3252601138,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 46,
+          "attempt": 1,
+          "seed": 3252601138,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.00034103930982036604,
+          "serial": 0.002170046197293207,
+          "signed_serial_numerator": 0.0037605957781942567,
+          "serial_denominator": 0.00651694909749502
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601138",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 46,
+      "attempt": 2,
+      "seed": 3252601139,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 46,
+      "attempt": 3,
+      "seed": 3252601140,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 47,
+      "attempt": 1,
+      "seed": 3252601141,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 47,
+          "attempt": 1,
+          "seed": 3252601141,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.000702208505590266,
+          "serial": 0.006587506731454621,
+          "signed_serial_numerator": -0.013394983963194572,
+          "serial_denominator": 0.027237254197783545
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601141",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 47,
+      "attempt": 2,
+      "seed": 3252601142,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 47,
+      "attempt": 3,
+      "seed": 3252601143,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 48,
+      "attempt": 1,
+      "seed": 3252601144,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 48,
+          "attempt": 1,
+          "seed": 3252601144,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 6.753632406734548e-05,
+          "serial": 0.0011531476165167072,
+          "signed_serial_numerator": 0.0038768382138606996,
+          "serial_denominator": 0.01303378190370032
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601144",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 48,
+      "attempt": 2,
+      "seed": 3252601145,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 48,
+      "attempt": 3,
+      "seed": 3252601146,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 49,
+      "attempt": 1,
+      "seed": 3252601147,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 49,
+          "attempt": 1,
+          "seed": 3252601147,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 7.401269179471581e-05,
+          "serial": 0.0012299615831828639,
+          "signed_serial_numerator": -0.0038407363877937277,
+          "serial_denominator": 0.011993265645216236
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601147",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 49,
+      "attempt": 2,
+      "seed": 3252601148,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 49,
+      "attempt": 3,
+      "seed": 3252601149,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 50,
+      "attempt": 1,
+      "seed": 3252601150,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 50,
+          "attempt": 1,
+          "seed": 3252601150,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0009931993318083416,
+          "serial": 3.728786756565841e-05,
+          "signed_serial_numerator": 0.0006413923072151994,
+          "serial_denominator": 0.011032652672627366
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601150",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 50,
+      "attempt": 2,
+      "seed": 3252601151,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 50,
+      "attempt": 3,
+      "seed": 3252601152,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 51,
+      "attempt": 1,
+      "seed": 3252601153,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 51,
+          "attempt": 1,
+          "seed": 3252601153,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0003259526768529665,
+          "serial": 0.00415129637116073,
+          "signed_serial_numerator": 0.0067439704728541015,
+          "serial_denominator": 0.010955887913637722
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601153",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 51,
+      "attempt": 2,
+      "seed": 3252601154,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 51,
+      "attempt": 3,
+      "seed": 3252601155,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 52,
+      "attempt": 1,
+      "seed": 3252601156,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 52,
+          "attempt": 1,
+          "seed": 3252601156,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.001598234555004985,
+          "serial": 0.0011715087861133445,
+          "signed_serial_numerator": 0.0022474864836411835,
+          "serial_denominator": 0.004311700905725092
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601156",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 52,
+      "attempt": 2,
+      "seed": 3252601157,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 52,
+      "attempt": 3,
+      "seed": 3252601158,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 53,
+      "attempt": 1,
+      "seed": 3252601159,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 53,
+          "attempt": 1,
+          "seed": 3252601159,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 8.423843868834287e-05,
+          "serial": 0.0009170069367791037,
+          "signed_serial_numerator": -0.002232317174853204,
+          "serial_denominator": 0.005434244572508611
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601159",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 53,
+      "attempt": 2,
+      "seed": 3252601160,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 53,
+      "attempt": 3,
+      "seed": 3252601161,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 54,
+      "attempt": 1,
+      "seed": 3252601162,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 54,
+          "attempt": 1,
+          "seed": 3252601162,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 5.789954350859109e-07,
+          "serial": 9.299853415415222e-06,
+          "signed_serial_numerator": 0.0004578578837636563,
+          "serial_denominator": 0.022541628599978773
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601162",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 54,
+      "attempt": 2,
+      "seed": 3252601163,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 54,
+      "attempt": 3,
+      "seed": 3252601164,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 55,
+      "attempt": 1,
+      "seed": 3252601165,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 55,
+          "attempt": 1,
+          "seed": 3252601165,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 4.041636706740494e-06,
+          "serial": 1.8548390441497336e-08,
+          "signed_serial_numerator": -1.849572374250895e-05,
+          "serial_denominator": 0.018443206586478647
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601165",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 55,
+      "attempt": 2,
+      "seed": 3252601166,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 55,
+      "attempt": 3,
+      "seed": 3252601167,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 56,
+      "attempt": 1,
+      "seed": 3252601168,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 56,
+          "attempt": 1,
+          "seed": 3252601168,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0005702710918928631,
+          "serial": 0.0007262488840625757,
+          "signed_serial_numerator": -0.0019797969259905423,
+          "serial_denominator": 0.005397042190599603
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601168",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 56,
+      "attempt": 2,
+      "seed": 3252601169,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 56,
+      "attempt": 3,
+      "seed": 3252601170,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 57,
+      "attempt": 1,
+      "seed": 3252601171,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 57,
+          "attempt": 1,
+          "seed": 3252601171,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.0004642589751481098,
+          "serial": 2.497138903843891e-06,
+          "signed_serial_numerator": 0.00017129836390677352,
+          "serial_denominator": 0.01175069974360216
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601171",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 57,
+      "attempt": 2,
+      "seed": 3252601172,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 57,
+      "attempt": 3,
+      "seed": 3252601173,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 58,
+      "attempt": 1,
+      "seed": 3252601174,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "available",
+      "executed": true,
+      "result": {
+        "spec": {
+          "slot": 58,
+          "attempt": 1,
+          "seed": 3252601174,
+          "cell": "N",
+          "source": "STABLE",
+          "strength": 1.0,
+          "role": "CAL"
+        },
+        "status": "available",
+        "scores": {
+          "scalar": 0.00013381991876260273,
+          "serial": 7.811033892538141e-07,
+          "signed_serial_numerator": 9.576726475259948e-05,
+          "serial_denominator": 0.011741555758650369
+        },
+        "completed_dates": 8,
+        "failure": null,
+        "episode_dir": "episode_3252601174",
+        "counts": {
+          "constructors_attempted": 1,
+          "constructors_succeeded": 1,
+          "prefix_G_attempted": 25,
+          "prefix_G_succeeded": 25,
+          "native_G_attempted": 16,
+          "native_G_succeeded": 16,
+          "Q_attempted": 8,
+          "Q_succeeded": 8,
+          "reward_attempted": 0,
+          "reward_succeeded": 0,
+          "host_calls_attempted": 40,
+          "host_calls_succeeded": 40,
+          "transitions_attempted": 1280,
+          "transitions_succeeded": 1280
+        },
+        "route_counts": {
+          "main_q_calls": 40
+        },
+        "evaluation": "bellman",
+        "eta_status": "not_supplied"
+      }
+    },
+    {
+      "slot": 58,
+      "attempt": 2,
+      "seed": 3252601175,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    },
+    {
+      "slot": 58,
+      "attempt": 3,
+      "seed": 3252601176,
+      "cell": "N",
+      "source": "STABLE",
+      "strength": 1.0,
+      "role": "CAL",
+      "status": "unused_after_first_available",
+      "executed": false,
+      "result": null
+    }
+  ],
+  "failure": null,
+  "threshold": 0.016723760858671822,
+  "H": null,
+  "scope": "Ideal capped experiment A: all 59 statistical slots succeed. Under iid matched N histories and positive monitor availability, P_CAL(r>.05 | A)<=.95**59; calibration-averaged single-look rank error conditional on A and future availability<=1/60. R denotes resource/runtime completion: no claim conditional on A AND R. Only P(A AND R AND bad_bank)<=.95**59 is inherited without additional assumptions. No automatic rerun/topup; no power, source-accuracy, multi-look or composite-null claim.",
+  "initial_capacity": {
+    "persistent_used": 30365,
+    "free": 14951899136,
+    "required_free": 1744800099,
+    "persistent_limit": 1073741824,
+    "temporary_limit": 134217728,
+    "temporary_disk_replication_bytes": 0
+  },
+  "tolerance_report": {
+    "mode": "strict_max_tolerance",
+    "status": "unavailable",
+    "rejected": false,
+    "reason": "observed_support_refusal",
+    "observed_score": null,
+    "observed_available": false,
+    "observed_status": "main_support_refusal",
+    "threshold": 0.016723760858671822,
+    "threshold_kind": "finite",
+    "comparison": "observed_score > maximum_of_all_planned_CAL_slots",
+    "cal_total_B": 59,
+    "cal_failed_count": 0,
+    "risk_target": 0.05,
+    "cal_failure_target": 0.05,
+    "bad_bank_probability_bound_under_assumptions": 0.048494525249423236,
+    "log_bad_bank_probability_bound_under_assumptions": -3.026304368865482,
+    "cal_confidence_target_met_by_B": true,
+    "assumptions_status": "not_verified",
+    "statistical_coverage": "not_established",
+    "scope": {
+      "kind": "single_look",
+      "release_times": [
+        40
+      ]
+    },
+    "risk_event": "single_look_alarm_conditional_on_main_availability",
+    "bound_statement": "P_CAL(fixed-bank null risk > risk_target) <= (1-risk_target)^B",
+    "required_assumptions": [
+      "independent CAL score streams and an independent future null observation",
+      "matching predeclared complete null scoring law and availability/stopping rule",
+      "first-available sampling only for the stated single-look availability conditioning",
+      "whole-calendar inputs are maxima of matching entire null trajectories, including support stops",
+      "bank and score design chosen before CAL; no outcome-based bank selection"
+    ],
+    "scope_limits": [
+      "not an absolute guarantee for every realized bank",
+      "not indefinite or anytime monitoring",
+      "not source calibration, source accuracy, or eta qualification"
+    ],
+    "applicable_scope": "Ideal capped experiment A: all 59 statistical slots succeed. Under iid matched N histories and positive monitor availability, P_CAL(r>.05 | A)<=.95**59; calibration-averaged single-look rank error conditional on A and future availability<=1/60. R denotes resource/runtime completion: no claim conditional on A AND R. Only P(A AND R AND bad_bank)<=.95**59 is inherited without additional assumptions. No automatic rerun/topup; no power, source-accuracy, multi-look or composite-null claim.",
+    "purpose": "bank arithmetic only; no future observation evaluated"
+  },
+  "counts": {
+    "constructors_attempted": 61,
+    "constructors_succeeded": 61,
+    "prefix_G_attempted": 1525,
+    "prefix_G_succeeded": 1525,
+    "native_G_attempted": 972,
+    "native_G_succeeded": 972,
+    "Q_attempted": 486,
+    "Q_succeeded": 486,
+    "reward_attempted": 0,
+    "reward_succeeded": 0,
+    "host_calls_attempted": 2436,
+    "host_calls_succeeded": 2436,
+    "transitions_attempted": 77952,
+    "transitions_succeeded": 77952
+  },
+  "elapsed_seconds": 149.224185833,
+  "initial_latent_updates_by_original_program": 488000
+}

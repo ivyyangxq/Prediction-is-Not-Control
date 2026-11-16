@@ -1,0 +1,22 @@
+{
+  "schema": "pinc.geometry_addendum.v1",
+  "eta": 0.9682857849561842,
+  "same_eta_for": "all confirmation histories, all three arms, every date",
+  "calibration": "maximum leave-one-out nearest-neighbor scaled L-infinity joint-cloud distance",
+  "calibration_data": "independent engineering seed4239010000 N prefix0\u201323, released by24; no confirmation geometry/outcomes inspected",
+  "calibration_rows": 768,
+  "calibration_scale": [
+    0.054665601930101795,
+    0.05932947274551469,
+    0.03028327615084783,
+    0.0309825884734614
+  ],
+  "calibration_file": "original independent engineering prefix (provenance only; not a runtime path)",
+  "calibration_file_sha256": "f48e16093f4e5255ab86c7fa68f178d992700c8ce9eb19482e9cb4a429fb98e5",
+  "measurement_code_sha256": "e5a73ec6ee5f8cbd7ea436aade26770227355f29650406f97e487a0943aeea8d",
+  "scale_rule": "each history initial0\u201323 sample standard deviations (floor1e-8), already frozen across arms/time",
+  "scope": "descriptive section15 geometry only; not a statistical/economic certificate or a changed native controller",
+  "original_frozen_native_and_measurement_config": "retained verbatim; original eta=null measurements retained as original reports",
+  "amendment_reason": "user requested concrete held-fixed eta after the formal controller started; this addendum applies identically to every original allocation without rerunning or replacing it",
+  "created_utc": "2026-11-13T18:39:24.954143+00:00"
+}

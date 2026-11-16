@@ -1,0 +1,71 @@
+{
+  "panel_mapping": {
+    "path_id": "unit",
+    "period": "date",
+    "release_period": "released",
+    "state": "x",
+    "action": "executed",
+    "previous_action": "anchor",
+    "next_state": "next_x"
+  },
+  "public_value": "macro_W",
+  "public_release": "publication",
+  "settings": {
+    "mode": "Online (Observed Inputs)",
+    "update_policy": "rolling",
+    "learn_start": -32,
+    "learn_end": 0,
+    "start": 0,
+    "end": 8,
+    "path": 0,
+    "window": 24,
+    "horizon": 3,
+    "discount": 0.95,
+    "grid": [
+      0.0,
+      0.01,
+      0.02,
+      0.03,
+      0.04,
+      0.05,
+      0.06,
+      0.07,
+      0.08,
+      0.09,
+      0.1
+    ],
+    "candidates": [
+      0.0,
+      0.01,
+      0.02,
+      0.03,
+      0.04,
+      0.05,
+      0.06,
+      0.07,
+      0.08,
+      0.09,
+      0.1
+    ],
+    "reward": {
+      "expression": "x - curvature*x*x - cost*a - .5*a*a",
+      "inputs": {
+        "x": "state",
+        "a": "action"
+      },
+      "parameters": {
+        "curvature": 0.25,
+        "cost": 2.025
+      }
+    },
+    "reference_scale": [
+      0.15,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "eta": null,
+    "nodes_per_memory": 3,
+    "noise_nodes": 2
+  }
+}

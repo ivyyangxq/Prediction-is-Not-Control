@@ -1,8 +1,8 @@
 # GQ Tool for Python
 
-Use this notebook workbench to study repeated decisions from records of actual actions and outcomes. You load two data tables, define a numerical objective, and inspect the actions recommended by the learning method over time. Reports explain when a recommendation is available and when information is missing. You can export results and save a session to continue later.
+Use this notebook workbench to study dynamic decisions with reinforcement learning and online learning. You supply panel histories, define a fixed reward function, and inspect recommendations and support failures as new observations arrive. Optional workflows evaluate evidence about changes in the learned environment and support applicable model updates; residual alarms alone do not identify their source.
 
-Start with the small example below. For an overview of the inputs, outputs, and an illustrative investment decision, see the [README](../README.md). The later sections of this guide explain the additional requirements for investigating changes and running simulated comparisons.
+Start with the small example below. The [README](../README.md) explains the economic use cases, inputs, outputs, and limits. Later sections of this guide cover the extra evidence required for diagnosis and the evaluator required for simulated comparisons.
 
 The package installs independently. The `gq-tool` command opens its Jupyter notebook; no research project folder or manual file copying is required.
 

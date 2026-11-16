@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "gq-tool"
 version = "1.0.3"
-description = "Study repeated decisions from action and outcome data in a Python notebook"
+description = "Reinforcement learning, support checks and change diagnosis for dynamic economic decisions"
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]

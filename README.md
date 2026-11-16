@@ -1,8 +1,8 @@
 # GQ Tool
 
-GQ Tool is a Python app for researchers studying repeated decisions from data. It helps you work through a question such as: **given what was known at the time, which action does the learned model recommend for the objective I specified?** You use a Jupyter notebook with menus to load data, define the objective, inspect recommendations over time, and save the results.
+GQ Tool is a Python workbench for economists studying **dynamic decisions with reinforcement learning and online learning**. It brings together learning from observed state transitions, checking whether a proposed decision is supported by the available data, and evaluating evidence about changes in the learned environment. You specify the reward function and keep it fixed while the learner processes new observations.
 
-It is intended for economists and other researchers who have records of the same units over several periods, including the actions actually taken and what happened afterward. The package implements the GQ learning method used in the *Prediction is Not Control* research project. You can start with the included small example before preparing your own data.
+The motivation is a familiar problem in quantitative economics: a model can predict reasonably well on observed histories yet provide a weak basis for choosing a different action. After a residual alarm or an apparent regime change, a researcher also needs to decide whether to continue learning, investigate the source of the change, or revise the model. This package provides a notebook workflow for studying those decisions under explicit data and model requirements. It implements the GQ learning method used in the *Prediction is Not Control* project.
 
 ## What you provide
 
@@ -22,11 +22,17 @@ Suppose you have a simulated panel of firms. Each row records a firm's output `x
 
 You can then step through decision periods, inspect the recommended investment at each period where the checks pass, and export the results. Recommendations remain separate from the investments recorded in the data. This example describes how you could use the inputs; it is not a claim that the package includes a validated model of firms or that following the recommendations raises profits.
 
-## Scope and limits
+## Scope: learning, diagnosis, and model updates
 
-This is a research tool for studying decisions under a stated objective and model assumptions. A recommendation means the tool could compute an action under its checks. It does not prove that the action will improve real outcomes.
+**Use the package when the object of interest is a sequence of decisions, not just a forecast.** Starting from panel histories of states, executed actions, and subsequent outcomes, you define a reward, a candidate action grid, and a planning horizon. The learner processes observations as they become available and computes recommendations where its support and numerical conditions hold. The workbench records the decision history and reasons for declining a recommendation, so you can inspect where the learning procedure can operate and where it runs out of usable information.
 
-Historical records alone do not establish what would have happened under an action that was never taken, or explain why a relationship changed. Those conclusions require additional assumptions and evidence. The tool can leave a question unresolved or decline to recommend an action when the required information is missing. See the [user guide](docs/START_HERE.md) for the conditions behind each feature.
+**Treat residual evidence as a reason to investigate.** In an online learning problem, a change in prediction errors can raise questions about model misspecification, changes in the environment, or both. The package includes detection and source-diagnosis workflows for evaluating specified explanations when the required calibration, candidate models, and identifying evidence are available. A residual alarm alone does not distinguish regime change from misspecification. With ordinary observational panels, that distinction may remain unresolved; importing data does not create the missing identification assumptions.
+
+**Make model updates conditional on the evidence.** Where an implemented update is applicable and the evidence requirements are met, you can explicitly accept or decline it and continue the session under the same reward function. Keeping the objective fixed lets you study a change in the learner without simultaneously changing what it is trying to achieve. An accepted update does not establish that the economic problem has been solved, and it does not waive the checks required for subsequent recommendations.
+
+**Evaluate alternative action paths only where they can be executed.** The controlled-simulation comparison tools run four paths that vary the action choice and whether a specified outside input is held fixed. They help inspect how these choices contribute to simulated returns. They require a compatible evaluator and supported actions. Observational CSV files alone do not identify returns under actions never taken; holding an observed proxy fixed also does not hold an unobserved economic state fixed.
+
+This makes the workbench useful for computational experiments and for organizing empirical learning exercises with explicit limits on what the data support. A computed recommendation is conditional on the chosen objective, model, and available histories. Neither that recommendation nor a successful diagnostic establishes a causal effect, an optimal economic policy, or a gain in welfare or profits. See the [user guide](docs/START_HERE.md) for the input requirements and feature-specific conditions.
 
 ## Install and try it
 

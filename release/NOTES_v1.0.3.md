@@ -1,14 +1,14 @@
 # GQ Tool 1.0.3
 
-A Python notebook app for researchers studying repeated decisions from records of actual actions and outcomes. Load data, define a numerical objective, inspect recommended actions over time, export reports, and save sessions to continue later. A small example is included.
+A Python workbench for economists studying dynamic decisions with reinforcement learning and online learning. Define a fixed reward, learn from panel histories as observations become available, and inspect recommendations together with the checks that determine whether they can be computed.
 
-## Inputs and results
+## When to use it
 
-Provide a CSV table of units, dates, current conditions, actual and previous actions, next observed conditions, and when observations became available. A second table supplies an observed outside input and its publication time. You choose the actions to consider and confirm the objective and its parameters.
+Use the notebook to study the gap between predicting observed outcomes and choosing actions under a specified objective. Load records of states, executed actions, subsequent outcomes, and observation times, together with an observed outside input. Choose the action grid and planning horizon, then inspect decisions over time, export reports, and save sessions for continuation. A small example is included.
 
-The workbench reports recommendations where its checks pass, and explains refusals where they do not. Optional tools for investigating changes and comparing simulated action paths require additional evidence or a compatible controlled simulation. Recommendations do not establish that an action will improve real outcomes or identify the effect of an action never taken.
+The package also supports evidence-based investigation after residual alarms, applicable model updates, and comparisons of alternative action paths in compatible controlled simulations. A residual alarm does not by itself distinguish model misspecification from regime change. Diagnosis requires calibration and identifying evidence; simulated alternatives require an evaluator that can execute them. Ordinary observational data alone do not supply either.
 
-For an illustrative investment example and feature limits, see the [README](https://github.com/ivyyangxq/Prediction-is-Not-Control#readme). Follow the [user guide](https://github.com/ivyyangxq/Prediction-is-Not-Control/blob/master/docs/START_HERE.md) to try the included example.
+Recommendations and simulated returns are conditional on the objective, model, support, and supplied evidence. They do not establish causal effects or gains in welfare or profits. See the [README](https://github.com/ivyyangxq/Prediction-is-Not-Control#readme) for the full scope and an illustrative investment example, and the [user guide](https://github.com/ivyyangxq/Prediction-is-Not-Control/blob/master/docs/START_HERE.md) to run the package.
 
 ## Install
 
